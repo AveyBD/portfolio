@@ -49,6 +49,7 @@ export const Container = styled.section`
      width: 100%;
      filter: grayscale(1);
      transition: filter 0.5s;
+     border-radius: 15px;
      &:hover{
        filter: grayscale(0);
      }
