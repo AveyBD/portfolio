@@ -38,8 +38,8 @@ export function Header() {
           <NavHashLink smooth to="#contact" onClick={closeMenu}>
             Contact
           </NavHashLink>
-          <a href={Curriculo} download className="button">
-            CV
+          <a href="https://ddeb.me" download className="button">
+            Blog
           </a>
         </nav>
 
