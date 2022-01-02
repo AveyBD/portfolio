@@ -21,19 +21,19 @@ export function About(){
         <ScrollAnimation animateIn="fadeInLeft">
           <h2>About Me</h2>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>My name is Debashish D. Dev. I have completed my engineering on Computer Science in 2019.</p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}>
 
           <p>I started my journey with wordpress. I used to read a lots of book. I wanted to be a writer. I had a wordpress blog and always wanted to make the blog more beautifull. Thats how I've jummped into Web Development. </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
 
           <p>I want to make the internet minimal and easy to use. I am a mern full stack developer. I write poem in JavaScript.</p>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.7 * 1000}>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
           <h3>I love to work with those tech:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
