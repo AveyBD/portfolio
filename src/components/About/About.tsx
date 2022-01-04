@@ -21,78 +21,78 @@ export function About(){
         <ScrollAnimation animateIn="fadeInLeft">
           <h2>About Me</h2>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.01 * 1000}>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.001 * 1000}>
           <p>My name is Debashish D. Dev. I have completed my engineering on Computer Science in 2019.</p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.02 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.002 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}>
 
           <p>I started my journey with wordpress. I used to read a lots of book. I wanted to be a writer. I had a wordpress blog and always wanted to make the blog more beautifull. Thats how I've jummped into Web Development. </p>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.03 * 1000}>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.003 * 1000}>
 
           <p>I want to make the internet minimal and easy to use. I am a mern full stack developer. I write poem in JavaScript.</p>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="fadeInLeft" delay={0.04 * 1000}>
+        <ScrollAnimation animateIn="fadeInLeft" delay={0.004 * 1000}>
           <h3>I love to work with those tech:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
 
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 1000}>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.001 * 1000}>
               <img src={reactIcon} alt="React" />
             </ScrollAnimation>
           </div>
 
           <div className="hability">
-          <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
+          <ScrollAnimation animateIn="fadeInUp" delay={0.002 * 1000}>
             <img src={vueIcon} alt="Vue" />
           </ScrollAnimation>
           </div>
 
           <div className="hability">
-          <ScrollAnimation animateIn="fadeInUp" delay={0.3 * 1000}> 
+          <ScrollAnimation animateIn="fadeInUp" delay={0.003 * 1000}> 
             <img src={jsIcon} alt="JavaScript" />
           </ScrollAnimation>
           </div>
 
           <div className="hability">
-          <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}> 
+          <ScrollAnimation animateIn="fadeInUp" delay={0.004 * 1000}> 
             <img src={mongodbIcon} alt="mongodb" />
           </ScrollAnimation>
           </div>
 
           <div className="hability">
-          <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}> 
+          <ScrollAnimation animateIn="fadeInUp" delay={0.004 * 1000}> 
             <img src={htmlIcon} alt="Html" />
           </ScrollAnimation>
           </div>
 
           <div className="hability">
-          <ScrollAnimation animateIn="fadeInUp" delay={0.5 * 1000}> 
+          <ScrollAnimation animateIn="fadeInUp" delay={0.005 * 1000}> 
             <img src={cssIcon} alt="Css" />
           </ScrollAnimation>
           </div>
           <div className="hability">
-          <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}> 
+          <ScrollAnimation animateIn="fadeInUp" delay={0.006 * 1000}> 
             <img src={nodeIcon} alt="Node" />
           </ScrollAnimation>
           </div>
 
           <div className="hability">
-          <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}> 
+          <ScrollAnimation animateIn="fadeInUp" delay={0.006 * 1000}> 
             <img src={awsIcon} alt="AWS" />
           </ScrollAnimation>
           </div>
 
           <div className="hability">
-          <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}> 
+          <ScrollAnimation animateIn="fadeInUp" delay={0.006 * 1000}> 
             <img src={wordpressIcon} alt="Wordpress" />
           </ScrollAnimation>
           </div>
           
           <div className="hability">
-          <ScrollAnimation animateIn="fadeInUp" delay={0.7 * 1000}>
+          <ScrollAnimation animateIn="fadeInUp" delay={0.007 * 1000}>
             <img src={typescriptIcon} alt="Typescript" />
           </ScrollAnimation>
           </div>
