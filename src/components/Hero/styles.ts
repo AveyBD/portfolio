@@ -4,6 +4,7 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   padding-top: 15%;
+  padding-bottom: 100px;
   display: flex;
   justify-content: space-between;
   gap: 8rem;
