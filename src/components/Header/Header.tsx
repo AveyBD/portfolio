@@ -40,7 +40,7 @@ export function Header() {
           <a href="https://ddeb.me">
             Blog
           </a>
-          <a href="https://drive.google.com/file/d/1FJaCiHvnZoIOIPSNdlYRf3rHZHWtqktq/view?usp=sharing" target={"_blank"} download className="button">
+          <a href="https://drive.google.com/file/d/1FJaCiHvnZoIOIPSNdlYRf3rHZHWtqktq/view?usp=sharing" target={"_blank"} download>
             Resume
           </a>
         </nav>

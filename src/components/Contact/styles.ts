@@ -38,7 +38,7 @@ export const Container = styled.section`
         width: 4rem;
       }
       a{
-        color: var(--black);
+        color: #ffffff;
         font-weight: 500;
       }
       &:hover{
