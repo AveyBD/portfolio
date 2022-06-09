@@ -1,18 +1,18 @@
-import { Container } from './styles'
-import { BrowserRouter as Router } from 'react-router-dom'
-import { NavHashLink, HashLink } from 'react-router-hash-link'
-import { useState } from 'react'
+import { Container } from './styles';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { NavHashLink, HashLink } from 'react-router-hash-link';
+import { useState } from 'react';
 
 export function Header() {
-  const [isActive, setActive] = useState(false)
+  const [isActive, setActive] = useState(false);
 
   function toggleTheme() {
-    let html = document.getElementsByTagName('html')[0]
-    html.classList.toggle('light')
+    let html = document.getElementsByTagName('html')[0];
+    html.classList.toggle('light');
   }
 
   function closeMenu() {
-    setActive(false)
+    setActive(false);
   }
 
   return (
@@ -37,8 +37,11 @@ export function Header() {
           <NavHashLink smooth to="#contact" onClick={closeMenu}>
             Contact
           </NavHashLink>
-          <a href="https://ddeb.me" download className="button">
+          <a href="https://ddeb.me">
             Blog
+          </a>
+          <a href="https://drive.google.com/file/d/1FJaCiHvnZoIOIPSNdlYRf3rHZHWtqktq/view?usp=sharing" target={"_blank"} download className="button">
+            Resume
           </a>
         </nav>
 
@@ -56,10 +59,10 @@ export function Header() {
           aria-label={isActive ? 'Close Menu' : 'Open Menu'}
           className={isActive ? 'menu active' : 'menu'}
           onClick={() => {
-            setActive(!isActive)
+            setActive(!isActive);
           }}
         ></div>
       </Router>
     </Container>
-  )
+  );
 }
