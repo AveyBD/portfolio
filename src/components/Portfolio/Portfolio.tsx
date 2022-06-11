@@ -3,9 +3,17 @@ import githubIcon from "../../assets/github-icon.svg";
 import externalLinkIcon from "../../assets/external-link-icon.svg";
 import info from '../../assets/info.svg';
 import ScrollAnimation from "react-animate-on-scroll";
+import Swal from "sweetalert2";
 
 
 export function Portfolio() {
+  const swalInfo = () => {
+    Swal.fire(
+      'The Internet?',
+      'That thing is still around?',
+      'question'
+    );
+  };
   return (
     <Container id="portfolio">
       <h2>Some of My Projects</h2>
@@ -25,8 +33,9 @@ export function Portfolio() {
                 </a>
                 <a href="https://valophone.web.app/" target="_blank" rel="noreferrer">
                   <img src={externalLinkIcon} alt="Valophone Web Site" /> </a>
-                <a href="https://valophone.web.app/" target="_blank" rel="noreferrer">
-                  <img src={info} alt="Valophone Web Site" /> </a>
+                <p onClick={swalInfo}>
+                  <img src={info} alt="Valophone Web Site" />
+                </p>
               </div>
             </header>
             <div className="body">
@@ -107,7 +116,7 @@ export function Portfolio() {
           </div>
         </ScrollAnimation>
 
-        
+
       </div>
     </Container>
   );
