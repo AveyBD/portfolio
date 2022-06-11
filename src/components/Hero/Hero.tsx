@@ -2,7 +2,7 @@ import { BrowserRouter } from "react-router-dom";
 import { Container } from "./styles";
 import ScrollAnimation from "react-animate-on-scroll";
 import Illustration from "../../assets/illustration.svg";
-import HeroImg from "../../assets/programmer.png";
+import HeroImg from "../../assets/devda.png";
 import { NavHashLink } from "react-router-hash-link";
 export function Hero() {
   return (

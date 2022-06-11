@@ -12,6 +12,7 @@ import mongodbIcon from "../../assets/mongodb-icon.svg"
 import wordpressIcon from "../../assets/wordpress-icon.svg"
 import awsIcon from "../../assets/amazon_aws-icon.svg"
 import ScrollAnimation from "react-animate-on-scroll";
+import programmerVector from "../../assets/programmer-vector.png"
 
 
 export function About(){
@@ -102,7 +103,7 @@ export function About(){
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
-          <img src="https://raw.githubusercontent.com/AveyBD/portfolio/master/src/assets/img-min.jpg" alt="Debashish D. Dev" />
+          <img src={programmerVector} alt="Debashish D. Dev" />
         </ScrollAnimation>
       </div>
     </Container>
